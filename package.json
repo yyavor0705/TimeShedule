@@ -1,0 +1,38 @@
+{
+  "name": "time-schedule",
+  "version": "1.0.0",
+  "description": "Time shedule table writen on typescript with jquery ",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack --watch --optimize-minimize",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyavor0705/TimeShedule.git"
+  },
+  "keywords": [
+    "time",
+    "schedule",
+    "plugin",
+    "table",
+    "plugin",
+    "jquery",
+    "sheet"
+  ],
+  "author": "yyavor0705",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yyavor0705/TimeShedule/issues"
+  },
+  "homepage": "https://github.com/yyavor0705/TimeShedule#readme",
+  "dependencies": {
+    "@types/jquery": "^3.3.31",
+    "jquery": "^3.4.1",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "devDependencies": {}
+}

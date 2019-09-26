@@ -7,7 +7,7 @@
       "preserveConstEnums": true
     },
     "include": [
-      "src/*",
+      "./*",
       "typings/*"
     ],
     "exclude": [
