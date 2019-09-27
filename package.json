@@ -4,7 +4,7 @@
   "description": "Time shedule table writen on typescript with jquery ",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack --watch --optimize-minimize",
+    "build": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

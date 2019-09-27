@@ -4,11 +4,13 @@
       "outDir": "dist/",
       "noImplicitAny": true,
       "removeComments": true,
-      "preserveConstEnums": true
+      "sourceMap": true,
+      "resolveJsonModule": true
     },
     "include": [
       "./*",
-      "typings/*"
+      "typings/*",
+      "fake_data/*"
     ],
     "exclude": [
         "node_modules",
