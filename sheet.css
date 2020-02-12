@@ -60,16 +60,37 @@
 }
 
 #i2 {
-    grid-area: 2/ 61/ 3/ 421;
+    grid-area: 2/ 61/ 3/ 91;
     background-color: powderblue;
 }
 
 #i3 {
-    grid-area: 2/ 481/ 3/ 616;
+    grid-area: 2/ 91/ 3/ 121;
     background-color: lightpink;
 }
 
 #i4 {
-    grid-area: 3/ 121/ 4/ 181;
+    grid-area: 2/ 121/ 3/ 181;
     background-color: lightpink;
 }
+
+#i5 {
+    grid-area: 2/ 181/ 3/ 211;
+    background-color: rgb(3, 0, 190);
+}
+
+#i6 {
+    grid-area: 2/ 421/ 3/ 481;
+    background-color: rgb(252, 8, 231);
+}
+
+#i7 {
+    grid-area: 2/ 481/ 3/ 496;
+    background-color: rgb(251, 255, 0);
+}
+
+#i8 {
+    grid-area: 2/ 496/ 3/ 551;
+    background-color: rgb(251, 255, 0);
+}
+
