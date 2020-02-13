@@ -50,6 +50,7 @@ export class Table implements JqueryElm{
     constructor(workers: Worker[]) {
         this.tableElm.append(this.tableHeaderRow)
         this.create_header();
+        this.create_workers(workers);
     }
 
     private create_header() {
@@ -62,7 +63,14 @@ export class Table implements JqueryElm{
 
     private create_workers(workers: Worker[]) {
         for (let worker in workers) {
-            this.tableElm.append('<tr class="schedule-row">')
+            let trElm = $('<tr class="schedule-row">')
+            this.tableElm.append(trElm)
+
+            let columnNumber = 0
+            while (columnNumber <= this.totalWorkingHours) {
+                trElm.append("<td>")
+                columnNumber += 1
+            }
         }
     }
 

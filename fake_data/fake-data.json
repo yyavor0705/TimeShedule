@@ -53,5 +53,35 @@
                 "color": "#dfc2ff"
             }
         }
+    },
+    "worker_3": {
+        "name": "James",
+        "jobs": {
+            "job_21": {
+                "start_time": "10:00",
+                "duration": 60,
+                "color": "#b0f5b1"
+            },
+            "job_22": {
+                "start_time": "12:00",
+                "duration": 105,
+                "color": "#b4f0e6"
+            },
+            "job_23": {
+                "start_time": "13:45",
+                "duration": 105,
+                "color": "#b4f0e6"
+            },
+            "job_24": {
+                "start_time": "16:00",
+                "duration": 20,
+                "color": "#f7c8d6"
+            },
+            "job_25": {
+                "start_time": "16:20",
+                "duration": 120,
+                "color": "#dfc2ff"
+            }
+        }
     }
 }
