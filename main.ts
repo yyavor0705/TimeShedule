@@ -20,14 +20,14 @@ $( document ).ready(function() {
             newWorker.name = myObj[key].name
             for (let job in myObj[key].jobs) {
                 let jobObj = myObj[key].jobs[job]
-                let newJob = new Job(key, jobObj.start_time, jobObj.duration, jobObj.color, workerRowCounter)
+                let newJob = new Job(job, jobObj.start_time, jobObj.duration, jobObj.color, workerRowCounter)
+                sheetContainer.append(newJob.get_element())
                 newWorker.jobs.push(newJob)
             }
             workers.push(newWorker)
             
         }
         let table = new Table(workers);
-        console.log("Adddd")
         sheetContainer.append(table.get_element());
     }
 });

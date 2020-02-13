@@ -16,6 +16,7 @@ export class Job implements JqueryElm{
         {
             if (color)
                 this.divElement.css({"background-color": color})
+            this.divElement.attr("id", id);
             let startColumn = this._convert_start_time_to_position(startTime)
             let endColumn = startColumn+duration
             let endRow = startRow+1            
@@ -50,7 +51,7 @@ export class Table implements JqueryElm{
     constructor(workers: Worker[]) {
         this.tableElm.append(this.tableHeaderRow)
         this.create_header();
-        this.create_workers(workers);
+        this.create_workers_rows(workers);
     }
 
     private create_header() {
@@ -61,7 +62,8 @@ export class Table implements JqueryElm{
         }
     }
 
-    private create_workers(workers: Worker[]) {
+    private create_workers_rows(workers: Worker[]) {
+        let workerRowCounter = 1
         for (let worker in workers) {
             let trElm = $('<tr class="schedule-row">')
             this.tableElm.append(trElm)
@@ -71,6 +73,7 @@ export class Table implements JqueryElm{
                 trElm.append("<td>")
                 columnNumber += 1
             }
+            
         }
     }
 

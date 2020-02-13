@@ -14,7 +14,7 @@
             },
             "job_14": {
                 "start_time": "11:00",
-                "duration": 120,
+                "duration": 100,
                 "color": "#dfc2ff"
             },
             "job_15": {
@@ -44,8 +44,8 @@
             },
             "job_24": {
                 "start_time": "16:00",
-                "duration": 20,
-                "color": "#f7c8d6"
+                "duration": 5,
+                "color": "#ffffff"
             },
             "job_25": {
                 "start_time": "16:20",
@@ -57,28 +57,28 @@
     "worker_3": {
         "name": "James",
         "jobs": {
-            "job_21": {
+            "job_31": {
                 "start_time": "10:00",
                 "duration": 60,
                 "color": "#b0f5b1"
             },
-            "job_22": {
+            "job_32": {
                 "start_time": "12:00",
                 "duration": 105,
                 "color": "#b4f0e6"
             },
-            "job_23": {
+            "job_33": {
                 "start_time": "13:45",
                 "duration": 105,
                 "color": "#b4f0e6"
             },
-            "job_24": {
+            "job_34": {
                 "start_time": "16:00",
                 "duration": 20,
                 "color": "#f7c8d6"
             },
-            "job_25": {
-                "start_time": "16:20",
+            "job_35": {
+                "start_time": "18:00",
                 "duration": 120,
                 "color": "#dfc2ff"
             }
