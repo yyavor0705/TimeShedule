@@ -94,3 +94,17 @@
     background-color: rgb(251, 255, 0);
 }
 
+#i9 {
+    grid-area: 2/ 551/ 3/ 571;
+    background-color: rgb(251, 255, 0);
+}
+
+#i10 {
+    grid-area: 2/ 571/ 3/ 586;
+    background-color: rgb(251, 255, 0);
+}
+
+#i11 {
+    grid-area: 2/ 586/ 3/ 601;
+    background-color: rgb(251, 255, 0);
+}
