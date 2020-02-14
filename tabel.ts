@@ -11,16 +11,13 @@ export class Job implements JqueryElm{
         startTime:string,
         duration:number,
         color:string,
-        startRow: number,
         )
         {
             if (color)
                 this.divElement.css({"background-color": color})
             this.divElement.attr("id", id);
-            let startColumn = this._convert_start_time_to_position(startTime)
-            let endColumn = startColumn+duration
-            let endRow = startRow+1            
-            this.divElement.css({"grid-area": startRow+"/"+startColumn+"/"+endRow+"/"+endColumn})
+            let startPosition = this._convert_start_time_to_position(startTime)        
+            this.divElement.css({"width": duration, "left": startPosition})
         }
 
     private _convert_start_time_to_position(startTime:string): number {
@@ -63,7 +60,6 @@ export class Table implements JqueryElm{
     }
 
     private create_workers_rows(workers: Worker[]) {
-        let workerRowCounter = 1
         for (let worker in workers) {
             let trElm = $('<tr class="schedule-row">')
             this.tableElm.append(trElm)

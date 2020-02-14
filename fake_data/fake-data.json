@@ -44,13 +44,8 @@
             },
             "job_24": {
                 "start_time": "16:00",
-                "duration": 5,
-                "color": "#ffffff"
-            },
-            "job_25": {
-                "start_time": "16:20",
                 "duration": 120,
-                "color": "#dfc2ff"
+                "color": "#ffffff"
             }
         }
     },
