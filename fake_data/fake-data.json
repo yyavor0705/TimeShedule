@@ -3,7 +3,7 @@
         "name": "John",
         "jobs": {
             "job_11": {
-                "start_time": "08:30",
+                "start_time": "00:00",
                 "duration": 105,
                 "color": "#b4f0e6"
             },
@@ -73,8 +73,18 @@
                 "color": "#f7c8d6"
             },
             "job_35": {
-                "start_time": "18:00",
-                "duration": 120,
+                "start_time": "18:15",
+                "duration": 15,
+                "color": "#dfc2ff"
+            },
+            "job_36": {
+                "start_time": "18:30",
+                "duration": 15,
+                "color": "#dfc2ff"
+            },
+            "job_37": {
+                "start_time": "18:45",
+                "duration": 15,
                 "color": "#dfc2ff"
             }
         }

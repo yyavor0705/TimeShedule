@@ -48,37 +48,8 @@
     box-sizing: border-box;
     box-shadow: inset 0 0 5px #000000;
     background-color: lightcyan;
-    top: 0px
-}
-
-#test1 {
-    width: 15px;
+    top: 0px;
     height: 30px;
-    left: 300px;
-}
-
-#test5 {
-    width: 15px;
-    height: 30px;
-    left: 315px;
-}
-
-#test4 {
-    width: 15px;
-    height: 30px;
-    left: 330px;
-}
-
-#test2 {
-    width: 15px;
-    height: 30px;
-    left: 345px;
-}
-
-#test3 {
-    width: 60px;
-    height: 30px;
-    left: 120px;
 }
 
 #schedules-holder {
