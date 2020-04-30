@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/yyavor0705/TimeShedule#readme",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ts-loader": "^6.1.0",
     "typescript": "^3.6.3",
     "webpack": "^4.40.2",
